@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     message: messageInput.value
                 };
                 
-                // Deshabilitar el botón mientras se envía
                 const submitButton = document.getElementById('submitButton');
                 submitButton.disabled = true;
                 submitButton.textContent = 'Enviando...';
